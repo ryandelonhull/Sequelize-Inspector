@@ -56,7 +56,7 @@ Adds fs, path, sequelize, and the sequelize template. Connects and creates table
 
 ## passport.js
 
-Acts like the toll booth to check for authentication. Passport template with functionality for passport-local. 
+Acts like the toll booth to check for authentication. Passport template with functionality for passport-local. Has javascript logic that tells passport when user requests to login.
 
 ## isAuthenticated.js
 
