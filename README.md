@@ -35,6 +35,12 @@ This file redirects to the different html files depending on what the user choos
 
 ## login.html, members.html, signup.html
 
+Each html file displays to the user the login, sign up, or members page based on the route chosen. They pull from the login.js, signup.js, and signup.js files.
+
+## login.js, members.js, and signup.js 
+
+These files hook from the html pages to update the email and password on the signup page, or login on the login page. 
+
 
 
 
