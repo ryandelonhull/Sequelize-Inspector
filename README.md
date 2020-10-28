@@ -18,6 +18,7 @@ Inspect the given code and analyze how it works. Write a tutorial explaning ever
 - mysql
 - sequelize
 - bcryptjs
+- JSON
 - Javascript
 - HTML
 - CSS
@@ -41,7 +42,25 @@ Each html file displays to the user the login, sign up, or members page based on
 
 These files hook from the html pages to update the email and password on the signup page, or login on the login page. 
 
+## api-routes.js 
 
+Pulls db data from models folder and requires passport for authentication. The get function is how the client side js files work with this file. The post functions authenticate and create the login/signup routes to send the data to the models folder.
+
+## user.js
+
+For creating username and passord. Middleware for encryption and security for the database. 
+
+## index.js
+
+Adds fs, path, sequelize, and the sequelize template. Connects and creates tables in the database through sequelize. Pulls the config.json data 
+
+## passport.js
+
+Acts like the toll booth to check for authentication. Passport template with functionality for passport-local. 
+
+## isAuthenticated.js
+
+Checks password to restrict routes for users. 
 
 
 
